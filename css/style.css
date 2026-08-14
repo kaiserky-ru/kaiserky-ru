@@ -81,7 +81,7 @@ textarea {
 
 .site-header {
   position: relative;
-
+  align-items: center;
   width: 90%;
 
   border-bottom: 1px solid var(--header-border);
