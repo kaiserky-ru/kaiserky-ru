@@ -80,29 +80,28 @@ textarea {
    ========================================================= */
 
 .site-header {
-  display: flex;
-  justify-content: center;   
-  align-items: center;
-
-  width: 90%;
-  margin-top: 10px;
-
-  background: #0000ee;
-  border: none;
+  width: 100%;
+  border: 0;
+  background: var(--post-bg);
 }
 
 .header-inner {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
 
   width: fit-content;
-  padding: 8px 14px;
+  min-height: 38px;
+
+  margin: 10px auto 5px;
+  padding: 5px 10px;
+
   gap: 12px;
 
   border: 1px solid #b7bfd9;
   background: #d6daf0;
+
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
 }
 
 /* =========================================================
