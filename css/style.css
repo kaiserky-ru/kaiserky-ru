@@ -80,21 +80,20 @@ textarea {
    ========================================================= */
 
 .site-header {
-  align-items: center;
   width: 90%;
-
-  border-bottom: 1px solid var(--header-border);
-
+  border: 0;
   background: var(--header-bg);
 }
 
 .header-inner {
   display: flex;
   align-items: center;
-
+  flex-wrap: wrap;
+  justify-content: center;
+   
   min-height: 42px;
 
-  width: 100%;
+  width: 90%;
 
   padding: 5px 10px;
 
@@ -187,11 +186,9 @@ textarea {
    ========================================================= */
 
 .container {
-  width: 90%;
-
+  width: 1000px;
+  max-width: calc(100% - 20px);
   margin: 0 auto;
-
-  padding: 10px;
 }
 
 /* =========================================================
