@@ -84,10 +84,10 @@ textarea {
   justify-content: center;   
   align-items: center;
 
-  width: 100%;
+  width: 90%;
   margin-top: 10px;
 
-  background: transparent;
+  background: #0000ee;
   border: none;
 }
 
