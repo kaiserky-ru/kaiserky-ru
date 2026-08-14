@@ -1,0 +1,8 @@
+# Local Supabase/frontend configuration
+js/config.local.js
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A simple Supabase-powered imageboard">
+  <title>Imageboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1><a href="index.html">Imageboard</a></h1>
+    <p class="tagline">Anonymous discussion board</p>
+  </header>
+
+  <main class="container">
+    <section class="panel">
+      <h2>Boards</h2>
+      <div id="boards" class="board-grid">
+        <p>Loading boards…</p>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>About</h2>
+      <p>This is a minimal serverless imageboard starter using GitHub Pages and Supabase.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="README.md">Setup documentation</a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/config.js"></script>
+  <script type="module" src="js/index.js"></script>
+</body>
+</html>

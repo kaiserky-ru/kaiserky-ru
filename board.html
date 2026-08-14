@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Board</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1><a href="index.html">Imageboard</a></h1>
+    <p id="board-heading" class="tagline">Loading…</p>
+  </header>
+
+  <main class="container">
+    <section class="panel new-thread">
+      <h2>Start a new thread</h2>
+      <form id="thread-form">
+        <label>
+          Subject
+          <input id="subject" name="subject" maxlength="120" placeholder="Optional subject">
+        </label>
+
+        <label>
+          Comment
+          <textarea id="comment" name="comment" maxlength="5000" required placeholder="Comment"></textarea>
+        </label>
+
+        <label>
+          Image
+          <input id="image" name="image" type="file" accept="image/jpeg,image/png,image/gif,image/webp">
+        </label>
+
+        <p class="hint">Images: JPEG, PNG, GIF or WebP, maximum 5 MB.</p>
+
+        <button type="submit">Post thread</button>
+        <p id="form-status" class="status" role="status"></p>
+      </form>
+    </section>
+
+    <div class="toolbar">
+      <a href="index.html">← All boards</a>
+      <button id="refresh" type="button">Refresh</button>
+    </div>
+
+    <section id="threads" aria-live="polite">
+      <p>Loading threads…</p>
+    </section>
+
+    <div id="pagination" class="pagination"></div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/config.js"></script>
+  <script type="module" src="js/board.js"></script>
+</body>
+</html>
