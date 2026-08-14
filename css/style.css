@@ -65,7 +65,7 @@ a:hover {
 }
 
 img {
-  max-width: 100%;
+  max-width: 90%;
 }
 
 button,
@@ -82,7 +82,7 @@ textarea {
 .site-header {
   position: relative;
 
-  width: 100%;
+  width: 90%;
 
   border-bottom: 1px solid var(--header-border);
 
@@ -188,7 +188,7 @@ textarea {
    ========================================================= */
 
 .container {
-  width: 100%;
+  width: 90%;
 
   margin: 0 auto;
 
