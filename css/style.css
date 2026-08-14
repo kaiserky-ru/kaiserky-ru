@@ -81,6 +81,7 @@ textarea {
 
 .site-header {
   width: 90%;
+  align-items: center;
   border: 0;
   background: var(--header-bg);
 }
@@ -186,8 +187,7 @@ textarea {
    ========================================================= */
 
 .container {
-  width: 1000px;
-  max-width: calc(100% - 20px);
+  width: 90%;
   margin: 0 auto;
 }
 
