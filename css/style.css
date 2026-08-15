@@ -81,10 +81,11 @@ textarea {
 
 
 .site-header {
+  width: 90%;
   padding: 18px 16px;
   text-align: center;
   border-bottom: 1px solid #333;
-  background: #181a1c;
+  background: #eef2ff;
 }
 .site-header h1 {
   margin: 0;
