@@ -79,12 +79,27 @@ textarea {
    HEADER
    ========================================================= */
 
+
 .site-header {
-  width: 100%;
-  border: 0;
-  background: var(--post-bg);
+  padding: 18px 16px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+  background: #181a1c;
+}
+.site-header h1 {
+  margin: 0;
+  font-size: 28px;
 }
 
+.site-header h1 a {
+  text-decoration: none;
+  color: #eee;
+}
+
+.tagline {
+  margin: 6px 0 0;
+  color: #999;
+}
 .header-inner {
   display: flex;
   align-items: center;
