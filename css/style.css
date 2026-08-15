@@ -66,6 +66,9 @@ a:hover {
 
 img {
   max-width: 90%;
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
 }
 
 button,
