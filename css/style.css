@@ -81,13 +81,14 @@ textarea {
 
 
 .site-header {
-  display: flex;
   align-items: center;
   justify-content: center;
-  width: 90%;
+  width: 20%;
   text-align: center;
-  border-bottom: 1px solid #333;
+  border-bottom: 15px solid #eef2ff;
   background: #d6daf0;
+  margin: 0 auto;
+  border-top: 10px solid #eef2ff;
 }
 .site-header h1 {
   margin: 0;
