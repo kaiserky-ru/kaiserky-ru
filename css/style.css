@@ -82,10 +82,9 @@ textarea {
 
 .site-header {
   width: 90%;
-  padding: 18px 16px;
   text-align: center;
   border-bottom: 1px solid #333;
-  background: #eef2ff;
+  background: #b7bfd9;
 }
 .site-header h1 {
   margin: 0;
@@ -94,7 +93,7 @@ textarea {
 
 .site-header h1 a {
   text-decoration: none;
-  color: #eee;
+  color: #000000;
 }
 
 .tagline {
