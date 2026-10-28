@@ -54,7 +54,7 @@ function threadHtml(thread) {
       </div>
       ${image}
       <div class="post-body">${escapeHtml(thread.comment).replace(/\n/g, "<br>")}</div>
-      <div class="thread-meta">${thread.reply_count} ${thread.reply_count === 1 ? "reply" : "replies"}</div>
+      <div class="thread-meta">${thread.reply_count} ${thread.reply_count === 0 ? "reply" : "replies"}</div>
     </article>
   `;
 }
